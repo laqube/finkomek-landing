@@ -1,0 +1,116 @@
+{
+  "global": {
+    "main": "Біз жайлы",
+    "experts": "Мамандар",
+    "courses": "Курстар",
+    "calcs": "Калькуляторлар",
+    "mobile": "Мобильді қосымша"
+  },
+  "main": {
+    "title": "Finkomek ұйымының мақсаты",
+    "article": "Әр қазақстандыққа қаржылық сауаттылықты қолжетімді түрде нәсихаттау арқылы еліміздегі экономикалық дағдарыстың шешілуіне ықпалымызды тигізу.",
+    "elements": [
+      {
+        "number": "3",
+        "word": "курс"
+      },
+      {
+        "number": "10+",
+        "word": "маман"
+      },
+      {
+        "number": "4",
+        "word": "калькулятор"
+      }
+    ]
+  },
+  "experts": {
+    "heading": "Біздің Мамандар",
+    "carousel": [
+      {
+        "name": "Әйгүл Сәрсен",
+        "description": "Финанс бағытындағы лидерлік позицияда тұрған эксперт",
+        "photo": "/path",
+        "button": "Экспертпен танысу"
+      },
+      {
+        "name": "Әйгүл Сәрсен",
+        "description": "Финанс бағытындағы лидерлік позицияда тұрған эксперт",
+        "photo": "/path",
+        "button": "Экспертпен танысу"
+      },
+      {
+        "name": "Әйгүл Сәрсен",
+        "description": "Финанс бағытындағы лидерлік позицияда тұрған эксперт",
+        "photo": "/path",
+        "button": "Экспертпен танысу"
+      },
+      {
+        "name": "Әйгүл Сәрсен",
+        "description": "Финанс бағытындағы лидерлік позицияда тұрған эксперт",
+        "photo": "/path",
+        "button": "Экспертпен танысу"
+      },
+      {
+        "name": "Әйгүл Сәрсен",
+        "description": "Финанс бағытындағы лидерлік позицияда тұрған эксперт",
+        "photo": "/path",
+        "button": "Экспертпен танысу"
+      }
+    ]
+  },
+  "quotes": {
+    "elements": [
+      {
+        "quote": "«Керек емес нәрсені сатып алған адам өзінен ұрлайды»",
+        "author": "-Швед мақалы"
+      },
+      {
+        "quote": "«Егер сіз ақшаның қадірін білгіңіз келсе, қарызға алып көріңіз»",
+        "author": "-Қытай мақалы"
+      }
+    ]
+  },
+  "courses": {
+    "heading": "КУРСТАР",
+    "security": "Финанстық қауіпсіздікке кіріспе",
+    "budgeting": "Қаржыны жоспарлау",
+    "children": "Балалардың қаржылық сауаты",
+    "advert": "Қызықтың ба? -Finkomek қосымшасына тіркел!",
+    "button": "ТІРКЕЛУ"
+  },
+  "stories": {
+    "article1": "lorem ipsum dolor sit amet blah blah blah blah blah blah blah blhab lhafdasjhklf j jfdksal fjdsaklf dsaufhiuoerwf cdsnmkafj fj uidsoaj",
+    "author1": "-John Doe",
+    "portrait1": "/path",
+    "article2": "lorem ipsum dolor sit amet blah blah blah blah blah blah blah blhab lhafdasjhklf j jfdksal fjdsaklf dsaufhiuoerwf cdsnmkafj fj uidsoaj",
+    "author2": "-John Doe",
+    "portrait2": "/path",
+    "article3": "lorem ipsum dolor sit amet blah blah blah blah blah blah blah blhab lhafdasjhklf j jfdksal fjdsaklf dsaufhiuoerwf cdsnmkafj fj uidsoaj",
+    "author3": "-John Doe",
+    "portrait3": "/path",
+    "article4": "lorem ipsum dolor sit amet blah blah blah blah blah blah blah blhab lhafdasjhklf j jfdksal fjdsaklf dsaufhiuoerwf cdsnmkafj fj uidsoaj",
+    "author4": "-John Doe",
+    "portrait4": "/path"
+  },
+  "calcs": {
+    "heading": "КАЛЬКУЛЯТОРЛАР",
+    "card1": {
+      "title": "Finkomek өз клиенттеріне үздік калькуляторларды ұсынады",
+      "paragraph": "клиенттердің қолдану аясындағы калькуляторлар:",
+      "li1": "қарызды өтеу калькуляторы",
+      "li2": "зейнетақы жинақ калькуляторы",
+      "li3": "арманнан мақсата калькуляторы",
+      "li4": "жеке байлық калькуляторы"
+    }
+  },
+  "mobile": {
+    "heading": "Мобильді қосымшаны жүкте!",
+    "bubble": {
+      "heading2": "КЕРЕК КЕЗДЕ FINKOMEK ЖАНЫҢНАН ТАБЫЛСЫН ДЕСЕҢ, БІЗДЕ САҒАН АРНАЛҒАН МОБИЛЬДІ ҚОСЫМША БАР!",
+      "paragraph": "Қаржы калькуляторлары, курстар, тіпті эксперттермен хабарда болу мүмкіндігі - бәрі сенің қалтаңда",
+      "google": "/path",
+      "apple": "/path"
+    }
+  }
+}
