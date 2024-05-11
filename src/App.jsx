@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 
 import Layout from "./components/Layout/Layout";
 import { useLanguage } from "./LanguageContext";
-import "./App.css";
 
 function App() {
   const location = useLocation();
@@ -29,14 +28,15 @@ function App() {
     }
   }, [language, navigate, changeLanguage]);
 
-  return;
-  <div className="app">
-    <Routes>
-      <Route path="/" element={<Layout />} /> /{">"}
-      <Route path="/ru/*" element={<Layout />} />
-      <Route path="*" element={<Layout />} />
-    </Routes>
-  </div>;
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Layout />} /> /{">"}
+        <Route path="/ru/*" element={<Layout />} />
+        <Route path="*" element={<Layout />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App;
+export default withTranslation()(App);

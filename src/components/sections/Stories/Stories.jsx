@@ -1,7 +1,7 @@
 import React from "react";
 
-const Strories = () => {
+const Stories = () => {
   return <div>Strories</div>;
 };
 
-export default Strories;
+export default Stories;
