@@ -16,6 +16,7 @@
 
 .navigation__link {
   transition: 0.3s;
+  font-weight: bolder;
 }
 
 .navigation__link:hover {
@@ -24,7 +25,7 @@
 }
 
 .navigation__link--active {
-  color: #f5b501;
+  color: #f5b501 !important;
 }
 
 .navigation__menu {
