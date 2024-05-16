@@ -1,0 +1,52 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: max-content;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.navigation__link {
+  transition: 0.3s;
+}
+
+.navigation__link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.navigation__link--active {
+  color: #f5b501;
+}
+
+.navigation__menu {
+  display: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navigation__alert-enter {
+  opacity: 0;
+}
+
+.navigation__alert-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.navigation__alert-exit {
+  opacity: 1;
+}
+
+.navigation__alert-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}

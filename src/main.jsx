@@ -3,13 +3,16 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import { LanguageProvider } from "./LanguageContext.jsx";
-import "./I18nProvider.jsx";
+import { LanguageContextProvider } from "./LanguageContext.jsx";
+import "./LanguageProvider.jsx";
+import LanguageProvider from "./LanguageProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <LanguageProvider>
-      <App />
+      <LanguageContextProvider>
+        <App />
+      </LanguageContextProvider>
     </LanguageProvider>
   </BrowserRouter>
 );

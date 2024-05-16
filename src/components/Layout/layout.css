@@ -1,7 +1,9 @@
 .containerFluid {
   width: 100%;
+  align-items: center;
 }
 
 .container {
   width: 80%;
+  align-items: center;
 }
