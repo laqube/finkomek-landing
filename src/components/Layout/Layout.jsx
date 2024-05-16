@@ -25,23 +25,40 @@ const Layout = () => {
   }, [pathname, language, changeLanguage]);
   return (
     <div classname="layout">
-      <Header />
+      <div className="containerFluid">
+        <Header />
+      </div>
 
-      <Mission />
+      <div className="containerFluid">
+        <Mission />
+      </div>
 
-      <Experts />
+      <div className="containerFluid">
+        <Experts />
+      </div>
 
-      <Quotes />
+      <div className="container">
+        <Quotes />
+      </div>
 
-      <Courses />
+      <div className="container">
+        <Courses />
+      </div>
 
-      <Stories />
+      <div className="container">
+        <Stories />
+      </div>
 
-      <Calculators />
+      <div className="container">
+        <Calculators />
+      </div>
+      <div className="container">
+        <Mobile />
+      </div>
 
-      <Mobile />
-
-      <Footer />
+      <div className="containerFluid">
+        <Footer />
+      </div>
     </div>
   );
 };
