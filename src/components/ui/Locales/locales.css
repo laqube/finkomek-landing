@@ -1,0 +1,7 @@
+.locales {
+  flex-direction: row;
+  gap: 20px;
+}
+.locales_btn {
+  margin: 0 20px;
+}
