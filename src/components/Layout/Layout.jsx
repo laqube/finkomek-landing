@@ -41,17 +41,17 @@ const Layout = () => {
         <Quotes />
       </div>
 
-      <div className="container">
+      {/* <div className="container">
         <Courses />
-      </div>
+      </div> */}
 
-      <div className="container">
+      {/* <div className="container">
         <Stories />
-      </div>
+      </div> */}
 
-      <div className="container">
+      {/* <div className="container">
         <Calculators />
-      </div>
+      </div> */}
       <div className="container">
         <Mobile />
       </div>
