@@ -1,0 +1,38 @@
+.expert-slide::before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: #0085a1;
+  z-index: 0;
+}
+.expert-slide-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  z-index: 1;
+}
+.expert-slide-pic {
+  margin-top: -30px;
+}
+.expert-slide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  justify-content: center;
+  color: white;
+}
+.expert-slide-button {
+  background-color: #00343f;
+  width: 150px;
+  padding: 10px 0;
+  height: 100x;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}

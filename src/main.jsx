@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
+import "./swiper.css";
 import { LanguageContextProvider } from "./LanguageContext.jsx";
 import "./LanguageProvider.jsx";
 import LanguageProvider from "./LanguageProvider.jsx";
