@@ -12,6 +12,22 @@ const Mobile = () => {
           <div className={styles.bubble}>
             <h2>{t("mobile.bubble.heading2")}</h2>
             <p>{t("mobile.bubble.paragraph")}</p>
+            <div className={styles.row}>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img
+                  src="/assets/mobile_android.png"
+                  alt="playmarket"
+                  className={styles.bubble_image}
+                />
+              </a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img
+                  src="/assets/mobile_apple.png"
+                  alt="appstore"
+                  className={styles.bubble_image}
+                ></img>
+              </a>
+            </div>
           </div>
         </div>
 
