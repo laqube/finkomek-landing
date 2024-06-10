@@ -17,7 +17,7 @@ const Header = () => {
         </a>
         <Navigation />
         <Locales />
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a href="https://finkomek-web.vercel.app/">
           <img src="assets/profile.svg" alt="icon" />
         </a>
       </div>

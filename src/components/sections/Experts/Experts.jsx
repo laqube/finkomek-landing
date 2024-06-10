@@ -34,7 +34,7 @@ export default function Experts() {
             <div className="expert-slide-content">
               <h1>{t("experts.carousel.0.name")}</h1>
               <a>{t("experts.carousel.0.description")}</a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <a href="https://finkomek-web.vercel.app/">
                 <button className="expert-slide-button">
                   <a>{t("experts.carousel.0.button")}</a>
                 </button>
@@ -54,7 +54,7 @@ export default function Experts() {
             <div className="expert-slide-content">
               <h1>{t("experts.carousel.1.name")}</h1>
               <a>{t("experts.carousel.1.description")}</a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <a href="https://finkomek-web.vercel.app/">
                 <button className="expert-slide-button">
                   <a>{t("experts.carousel.1.button")}</a>
                 </button>
@@ -74,7 +74,7 @@ export default function Experts() {
             <div className="expert-slide-content">
               <h1>{t("experts.carousel.2.name")}</h1>
               <a>{t("experts.carousel.2.description")}</a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <a href="https://finkomek-web.vercel.app/">
                 <button className="expert-slide-button">
                   <a>{t("experts.carousel.2.button")}</a>
                 </button>
